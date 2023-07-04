@@ -2,7 +2,6 @@ import { Link, useLocation } from "react-router-dom";
 import PersonIcon from "@mui/icons-material/Person";
 import InsertDriveFileIcon from "@mui/icons-material/InsertDriveFile";
 import HomeRepairServiceIcon from "@mui/icons-material/HomeRepairService";
-
 export default function Header() {
     const { pathname } = useLocation();
 

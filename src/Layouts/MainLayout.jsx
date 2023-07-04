@@ -9,11 +9,7 @@ export default function MainLayout() {
             <main>
                 <Header />
                 <div className="page-wrapper">
-                    <div className="container">
-                        <div className="page-body">
-                            <Outlet />
-                        </div>
-                    </div>
+                    <Outlet />
                 </div>
             </main>
         </>
