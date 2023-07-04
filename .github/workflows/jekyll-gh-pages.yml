@@ -42,7 +42,7 @@ jobs:
     deploy:
         environment:
             name: github-pages
-            url: ""
+            url: "https://vitaliy-parasochkin.github.io/portfolio/"
         runs-on: ubuntu-latest
         needs: build
         steps:
