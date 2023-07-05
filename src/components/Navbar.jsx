@@ -8,7 +8,7 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import DownloadIcon from "@mui/icons-material/Download";
 import place from "../images/portfolio.jpg";
-import portfolioPdf from "../images/Vitaliy_Parasochkin_resume.pdf";
+import portfolioPdf from "../images/Parasochkin_resume.pdf";
 import { Avatar } from "@mui/material";
 
 export default function Navbar() {
