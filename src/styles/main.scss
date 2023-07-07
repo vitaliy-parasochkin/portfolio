@@ -14,6 +14,7 @@ html {
     min-height: 100%;
     display: flex;
     background: $dark;
+    justify-content: start;
 }
 
 main {
@@ -22,13 +23,6 @@ main {
     flex-direction: column;
     flex: 1 1 auto;
     margin: 24px 24px 24px 0;
-}
-
-.main-layout {
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 auto;
 }
 
 .page-wrapper {
@@ -88,13 +82,6 @@ aside {
     position: relative;
     top: 24px;
     border-radius: 20px;
-    transition: 0.3s ease-in-out;
-    transform: translateX(0%);
-
-    &.toggled {
-        transform: translateX(-150%);
-        position: absolute;
-    }
 }
 
 .navbar-wrapper {
@@ -289,7 +276,7 @@ aside {
 .container {
     padding: 0 20px;
     margin: 0 auto;
-    max-width: 1300px;
+    max-width: 1000px;
     height: auto;
 }
 
@@ -490,9 +477,9 @@ aside {
 
 .work-item {
     border-radius: 12px;
-    position: relative;
     overflow: hidden;
     color: $white;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -516,7 +503,7 @@ aside {
         }
 
         .work-item-body {
-            transform: translateY(30%);
+            transform: translateY(0);
         }
     }
 }
@@ -553,6 +540,7 @@ aside {
 
 .slider-wrapper {
     margin-bottom: 24px;
+    padding: 0 30px;
 }
 
 .slick-next {

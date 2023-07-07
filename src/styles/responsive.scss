@@ -1,17 +1,99 @@
-@media (max-width: 1199px) {
+@media (max-width: 1399px) {
     .container {
         max-width: 800px;
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
     .container {
-        max-width: 600px;
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 991px) {
+    #root {
+        flex-direction: column-reverse;
+    }
+
+    main {
+        margin: 24px 24px 0 24px;
     }
 }
 
 @media (max-width: 767px) {
     .container {
         max-width: 100%;
+    }
+
+    .main-title {
+        font-size: 28px;
+
+        &::after {
+            width: 80px;
+            left: 110%;
+        }
+    }
+
+    .about-text {
+        font-size: 16px;
+    }
+
+    .submain-title {
+        font-size: 22px;
+    }
+
+    header {
+        column-gap: 15px;
+        justify-content: center;
+        padding: 20px;
+
+        a {
+            padding: 12px 22px;
+        }
+    }
+
+    .what-do-list-item {
+        flex: 100%;
+    }
+
+    .what-do-wrapper {
+        row-gap: 15px;
+    }
+
+    .resume-wrapper {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .skills-items {
+        row-gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .skills-item {
+        flex: 100%;
+        row-gap: 12px;
+    }
+
+    .skills-wrapper {
+        margin-top: 20px;
+        padding: 20px 0;
+    }
+
+    aside {
+        position: static;
+        margin-top: 24px;
+    }
+
+    .navbar-info {
+        padding: 15px;
+    }
+
+    .work-item-body {
+        transform: translateY(100%);
+    }
+
+    .work-item:hover .work-item-body {
+        transform: translateY(10%);
     }
 }
