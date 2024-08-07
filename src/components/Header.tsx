@@ -4,7 +4,7 @@ import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoClose } from "react-icons/io5";
 const links = [
-  { title: "About", url: "#about" },
+  { title: "Skills", url: "#skills" },
   { title: "Experience", url: "#experience" },
   { title: "Projects", url: "#projects" },
   { title: "Contact", url: "#contact" },
