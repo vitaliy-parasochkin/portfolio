@@ -17,7 +17,7 @@ export default function Greeting() {
           personally.
         </p>
       </div>
-      <div className="flex items-center justify-center md:mt-0 mt-4">
+      <div className="flex items-center justify-center md:mt-0 mt-4 sm:pb-0 pb-4">
         <div className="relative z-10 md:w-auto w-2/3">
           <div className="absolute bg-gray-600 w-full h-full left-10 top-10 -z-10 rounded"></div>
           <div className="absolute bg-black w-full h-full left-2 top-2 -z-10 rounded"></div>
