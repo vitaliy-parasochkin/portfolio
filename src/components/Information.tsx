@@ -1,5 +1,5 @@
 import Title from "./Title.tsx";
-import { IoCopyOutline, IoMailOutline } from "react-icons/io5";
+import { IoMailOutline } from "react-icons/io5";
 import { AiFillLinkedin } from "react-icons/ai";
 import { BsTelegram } from "react-icons/bs";
 

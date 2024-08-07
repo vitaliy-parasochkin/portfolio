@@ -1,7 +1,6 @@
 import Header from "./components/Header.tsx";
 import Footer from "./components/Footer.tsx";
 import Greeting from "./components/Greeting.tsx";
-import About from "./components/About.tsx";
 import Skills from "./components/Skills.tsx";
 import Experience from "./components/Experience.tsx";
 import Projects from "./components/Projects.tsx";

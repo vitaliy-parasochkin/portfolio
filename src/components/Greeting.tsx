@@ -1,6 +1,6 @@
 import personPicture from "../assets/person.jpg";
-import { MdExpandMore, MdOutlineReadMore } from "react-icons/md";
-import { BiExpand } from "react-icons/bi";
+import { MdExpandMore } from "react-icons/md";
+
 export default function Greeting() {
   return (
     <div className="grid md:grid-cols-[60%_40%] grid-cols-[100%] items-center md:gap-x-6 gap-x-2 ps-4 md:pe-20 pe-4 md:h-screen h-full md:py-0 py-20 relative">

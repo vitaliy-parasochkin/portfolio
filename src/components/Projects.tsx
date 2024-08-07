@@ -1,8 +1,6 @@
 import Title from "./Title.tsx";
 import reactProductImg from "../assets/example react-products.png";
 import Badge from "./Badge.tsx";
-import { BiShare } from "react-icons/bi";
-import { PiShareFatFill } from "react-icons/pi";
 import { FaRegShareFromSquare } from "react-icons/fa6";
 
 const projectBullets = [

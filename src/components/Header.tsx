@@ -1,8 +1,6 @@
 import CV from "../assets/CV Parasochkin Vitalli - Middle Front-end.pdf";
 import logo from "../assets/logo.jpg";
 import { useState } from "react";
-import { CiBurger, CiMenuBurger } from "react-icons/ci";
-import { GiHamburgerMenu } from "react-icons/gi";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoClose } from "react-icons/io5";
 const links = [
