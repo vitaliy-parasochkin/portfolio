@@ -11,7 +11,7 @@ import cypressLogo from "../assets/icon-cypress.svg";
 import rxjsLogo from "../assets/icon-rxjs.png";
 import reactHookFormLogo from "../assets/icon-react-hook-form.svg";
 import jestLogo from "../assets/icon-jest.png";
-import formikLogo from "../assets/icon-formik.png";
+import nextJsLogo from "../assets/icon-nextjs.png";
 import bootstrapLogo from "../assets/icon-bootstrap.png";
 import rtlLogo from "../assets/icon-react-testing-library.png";
 import headlessUILogo from "../assets/icon-headless-ui.png";
@@ -29,7 +29,7 @@ const skills = [
   { img: rxjsLogo, title: "RxJS" },
   { img: reactHookFormLogo, title: "React Hook Form" },
   { img: jestLogo, title: "Jest" },
-  { img: formikLogo, title: "Formik" },
+  { img: nextJsLogo, title: "Next.js" },
   { img: bootstrapLogo, title: "Bootstrap" },
   { img: rtlLogo, title: "React testing library" },
   { img: headlessUILogo, title: "Headless UI" },
